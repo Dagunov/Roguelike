@@ -18,7 +18,16 @@ struct View {
 
 struct Race {
 	char* raceName;
+	//Skill* skills;
+	//Abillity* abillities;
+};
 
+//Структура,которая представляет класс живого объекта.Как и раса,каждый класс имеет свои навыки(ск) и умения(аб).
+//К примеру класс лучник имеет навык стрельбы двумя стрелами.
+struct Class {
+	char* className;
+	//Skill* skills;
+	//Abillity* abillities;
 };
 
 struct Entity {
